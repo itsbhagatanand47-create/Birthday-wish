@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff4e50, #fc913a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    color: white;
+}
+
+/* Main Heading */
+.main-text {
+    font-size: 40px;
+    animation: glow 2s infinite alternate;
+}
+
+/* Messages */
+#messages {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+/* Animation */
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff;
+    }
+    to {
+        text-shadow: 0 0 25px #ffdde1, 0 0 40px #fff;
+    }
+}
+
+/* Floating hearts */
+.heart {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    animation: float 5s linear infinite;
+}
+
+@keyframes float {
+    from {
+        transform: translateY(100vh);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-10vh);
+        opacity: 0;
+    }
+}
