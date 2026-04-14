@@ -1,9 +1,9 @@
 const messages = [
     "You make my life beautiful ❤️",
     "Every moment with you is special ✨",
-    "I’m lucky to have you 💕",
+    "I’m lucky to have you in my life didi💕",
     "Keep smiling always 😊",
-    "I love you forever ❤️"
+    "I am with you forever"
 ];
 
 let index = 0;
@@ -22,7 +22,7 @@ function showMessage() {
             p.style.opacity = 1;
         }, 100);
 
-        index++;
+        index++;4
         setTimeout(showMessage, 2000);
     }
 }
