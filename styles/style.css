@@ -248,6 +248,14 @@ body::after {
   color: white;
 }
 
+.gift-line {
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.8;
+  color: #fff7f2;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(40px);
